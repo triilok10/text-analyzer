@@ -1,0 +1,242 @@
+.mainText {
+  border: 2px solid black;
+  background-color: yellow;
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 50px;
+  height: 10vh;
+  border-radius: 5px;
+}
+
+.mainText-left {
+  font-family: cursive;
+  font-size: 25px;
+  color: red;
+}
+
+.mainText-right {
+  display: flex;
+}
+
+.mainText-right li {
+  list-style: none;
+  border: 2px solid orangered;
+  margin: 0px 20px;
+  padding: 5px 8px;
+  background-color: skyblue;
+  border-radius: 7px;
+}
+
+.mainText-right li a {
+  text-decoration: none;
+  font-family: cursive;
+
+}
+
+.textAnalyize {
+  /* border: 1px solid black; */
+  padding: 35px 0px;
+  text-align: center;
+}
+
+.textform {
+  /* border: 2px solid black; */
+  text-align: center;
+}
+
+.footerbtn {
+  /* border: 2px solid red; */
+  text-align: center;
+}
+
+.footerbtn button {
+  margin: 5px;
+  background-color: skyblue;
+  border-radius: 4px;
+  font-size: 14px;
+  padding: 4px 6px;
+}
+
+.footerbtn button:hover {
+  cursor: pointer;
+}
+
+.footer {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 120px;
+}
+
+.footer-right a img {
+  width: 60px;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.mainText-left-signup {
+  /* border: 2px solid rebeccapurple; */
+  font-family: cursive;
+  font-weight: 700;
+  font-size: 30px;
+  padding-left: 150px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.mainText-left-signup a {
+  color: red;
+  text-decoration: none;
+}
+
+.main-signup {
+  /* border: 1px solid black; */
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.main-signup-heading p a {
+  text-decoration: none;
+}
+
+.main-signup-input {
+  width: 610px;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: whitesmoke;
+}
+
+.main-signup-email {
+  /* border: 1px solid blueviolet; */
+  text-align: left;
+}
+
+.main-signup-email input {
+  width: 98%;
+  height: 35px;
+  font-size: 21px;
+}
+
+.main-signup-email-create button {
+  width: 100%;
+  height: 40px;
+  background-color: skyblue;
+  color: red;
+  font-weight: 600;
+  font-family: cursive;
+  font-size: 25px;
+}
+
+.bg-sign {
+  background-color: rgb(169, 214, 78);
+  height: 100vh;
+}
+
+.mainLogin-page {
+  /* background-color: rgb(236, 236, 51); */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Text Analyizer\textanalyize\public\Images\bglogin.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-login-center {
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+}
+
+.main-login-center-input {
+  /* color: black; */
+  border: 1px solid black;
+  width: 600px;
+  /* height: 200px; */
+  /* background-color: #fff; */
+  background-image: url("C:\Users\ittik\OneDrive\Desktop\React Work\Text Analyizer\textanalyize\public\Images\tajmahal.jpg");
+  height: 80vh;
+  background-position: center;
+  background-size: 70%;
+}
+
+.main-login-center-input-top {
+  font-size: 28px;
+  font-family: cursive;
+  text-align: center;
+  text-shadow: 1px 2px 2px;
+  padding: 15px;
+  color: white;
+}
+
+.main-login-center-input-top-user {
+  text-align: center;
+  font-family: cursive;
+  font-size: 24px;
+  color: red;
+  font-weight: 500;
+  text-shadow: 1px 2px 2px;
+
+}
+
+.main-login-center-input-top-user-name {
+  text-align: center;
+  padding: 25px;
+}
+
+.main-login-center-input-top-user-name input {
+  width: 80%;
+  height: 35px;
+  font-size: 23px;
+  border-radius: 60px;
+  background-color: skyblue;
+}
+
+.main-login-center-input-top-check {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 80px;
+
+}
+
+.main-login-center-input-top-login {
+  text-align: center;
+}
+
+.main-login-center-input-top-login button {
+  width: 75%;
+  height: 40px;
+  background-color: skyblue;
+  border-radius: 8px;
+  font-size: 22px;
+  font-family: cursive;
+}
+
+.main-login-center-input-top-check-left {
+  display: flex;
+}
+
+.main-login-center-input-top-check-right a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-login-center-input-top-check-right {
+  /* border: 1px solid teal; */
+  display: flex;
+  align-items: center;
+}
+
+.main-login-center-input-footer {
+  text-align: center;
+}
+
+.main-login-center-input-footer p {
+  color: red;
+  font-family: cursive;
+  text-shadow: 1px 2px 1px black;
+}
